@@ -16,6 +16,8 @@
 
   #hamburguer-nav {
     display: flex;
+    justify-content: space-between;
+    padding: 0 6vw;
   }
 
   .experience,
@@ -87,35 +89,36 @@
     font-size: 1rem;
   }
 
-  .experience-sub-title{
+  .experience-sub-title {
     font-size: 1.25rem;
   }
 
-  .logo{
-    font-size: 1.5rem;
-  }
+  /* #hamburguer-nav{
+    justify-content: space-between;
+    padding: 0 6vw;
+  } */
 
-  .nav-links{
+  .nav-links {
     flex-direction: column;
     gap: 0.5rem;
     text-align: center;
   }
 
-  .section__pic-container{
+  .section__pic-container {
     width: auto;
     height: 46vw;
     justify-content: center;
   }
 
-  .section__text__p2{
+  .section__text__p2 {
     font-size: 1.25rem;
   }
 
-  .title{
+  .title {
     font-size: 2rem;
   }
 
-  .text-container{
+  .text-container {
     text-align: justify;
   }
 }

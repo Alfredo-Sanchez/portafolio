@@ -18,6 +18,10 @@ p {
   color: rgb(85, 85, 85);
 }
 
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 /* TRANSITION */
 
 a,
@@ -57,8 +61,19 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
+.logo svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.logo-module--icon--13WJl {
+  fill: rgb(85, 85, 85);
+}
+
+.logo-module--icon--13WJl:hover {
+  fill: gray;
+  transition: all 100ms ease;
+  transform: scale(1.1);
 }
 
 .logo:hover {
@@ -424,6 +439,6 @@ footer {
   margin: 0 1rem;
 }
 
-footer p{
+footer p {
   text-align: center;
 }
