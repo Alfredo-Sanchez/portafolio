@@ -13,7 +13,7 @@
 ### [Mi Portafolio Personal](https://alfredo-sanchez.github.io/portafolio/)
 - **Descripción**: Este es mi portafolio donde muestro mis proyectos y habilidades. Utilicé técnicas de diseño responsivo para asegurarme de que se vea bien en todos los dispositivos.
 - **Tecnologías utilizadas**: HTML, CSS, JavaScript.
-- **Capturas de pantalla**: ![Screenshot](https://example.com/screenshot.png)
+- **Capturas de pantalla**: ![Screenshot](./assets/portfolio-pic-1.png)
 
 ### [Proyecto 1](https://github.com/tu-usuario/proyecto1)
 - **Descripción**: Breve descripción del proyecto, su objetivo y lo que aprendiste al hacerlo.
