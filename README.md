@@ -10,7 +10,7 @@
 
 ## Proyectos destacados
 
-### [Mi Portafolio Personal](https://github.com/tu-usuario/portafolio)
+### [Mi Portafolio Personal](https://alfredo-sanchez.github.io/portafolio/)
 - **Descripción**: Este es mi portafolio donde muestro mis proyectos y habilidades. Utilicé técnicas de diseño responsivo para asegurarme de que se vea bien en todos los dispositivos.
 - **Tecnologías utilizadas**: HTML, CSS, JavaScript.
 - **Capturas de pantalla**: ![Screenshot](https://example.com/screenshot.png)
@@ -28,8 +28,8 @@
 ## Contacto
 Si deseas saber más sobre mí o mis proyectos, no dudes en contactarme:
 - **Correo electrónico**: alfredosanchez080114@gmail.com
-- **LinkedIn**: [Alfredo en LinkedIn]([https://www.linkedin.com/in/alfredo](https://www.linkedin.com/in/alfredo-sanchezg/))
-- **GitHub**: [Alfredo en GitHub]([https://github.com/tu-usuario](https://github.com/Alfredo-Sanchez))
+- **LinkedIn**: [Alfredo en LinkedIn](https://www.linkedin.com/in/alfredo-sanchezg/)
+- **GitHub**: [Alfredo en GitHub](https://github.com/Alfredo-Sanchez)
 
 ---
 
