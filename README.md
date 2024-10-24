@@ -9,21 +9,28 @@
 - **Herramientas**: Git, GitHub
 
 ## Proyectos destacados
+### CRAYOLA Y LAPIZ S. A
+**Desarrollador FullStack** 
+Asunción, Paraguay  *Ene 2024 – Oct 2024*
+**Descripción**:
+- **Gestión de compras**: Automatiza la creación y seguimiento de presupuesto de proveedores, además registra las compras, actualizando el stock disponible, evitando errores y faltantes.
+- **Integración de ventas**: Centraliza la gestión de ventas, facilitando una visión completa de las operaciones y mejorando la planificación y control financiero.
+- **Gestión de cobros multi-método**: Facilita el cobro a clientes mediante distintos métodos de pago, como efectivo, tarjeta y cheque, asegurando flexibilidad y rapidez en las transacciones.
+- **Módulo de Tesorería**: Permite gestionar eficientemente los flujos de efectivo de la empresa, controlando ingresos y egresos en tiempo real. Facilita la conciliación bancaria automática, el seguimiento de pagos y cobros, y la planificación de la liquidez, mejorando la toma de decisiones financieras y asegurando un control preciso de las finanzas.
+
+**Tecnologías utilizadas**: 
+* HTML, CSS, JavaScript, PHP, SQL, PostgreSQL, XAMPP.
+
+**Capturas de pantalla**:
+
+ ![Screenshot](./assets/project-13.png)
+
+
 
 ### [Mi Portafolio Personal](https://alfredo-sanchez.github.io/portafolio/)
 - **Descripción**: Este es mi portafolio donde muestro mis proyectos y habilidades. Utilicé técnicas de diseño responsivo para asegurarme de que se vea bien en todos los dispositivos.
 - **Tecnologías utilizadas**: HTML, CSS, JavaScript.
 - **Capturas de pantalla**: ![Screenshot](./assets/portfolio-pic-1.png)
-
-### [Proyecto 1](https://github.com/tu-usuario/proyecto1)
-- **Descripción**: Breve descripción del proyecto, su objetivo y lo que aprendiste al hacerlo.
-- **Tecnologías utilizadas**: HTML, CSS, JavaScript.
-- **Capturas de pantalla**: ![Screenshot](https://example.com/screenshot1.png)
-
-### [Proyecto 2](https://github.com/tu-usuario/proyecto2)
-- **Descripción**: Breve descripción del proyecto, su objetivo y lo que aprendiste al hacerlo.
-- **Tecnologías utilizadas**: HTML, CSS, JavaScript.
-- **Capturas de pantalla**: ![Screenshot](https://example.com/screenshot2.png)
 
 ## Contacto
 Si deseas saber más sobre mí o mis proyectos, no dudes en contactarme:
