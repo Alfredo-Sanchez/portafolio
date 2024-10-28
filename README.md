@@ -14,6 +14,23 @@
 Asunción, Paraguay  *Ene 2024 – Oct 2024*
 **Descripción**:
 - **Gestión de compras**: Automatiza la creación y seguimiento de presupuesto de proveedores, además registra las compras, actualizando el stock disponible, evitando errores y faltantes.
+- **Gestión de servicios**: Gestiona las reservas de turnos, órdenes de trabajos y agendas de los funcionarios.
+- **Integración de ventas**: Centraliza la gestión de ventas, facilitando una visión completa de las operaciones y mejorando la planificación y control financiero.
+- **Gestión de cobros multi-método**: Facilita el cobro a clientes mediante distintos métodos de pago, como efectivo, tarjeta y cheque, asegurando flexibilidad y rapidez en las transacciones.
+
+
+**Tecnologías utilizadas**: 
+* HTML, CSS, JavaScript, PHP, SQL, PostgreSQL, XAMPP.
+
+**Capturas de pantalla**:
+
+ ![Screenshot](./assets/rm-project-crayola.png)
+
+ ### ELECTRODOMESTICOS S. A
+**Desarrollador FullStack** 
+Asunción, Paraguay  *Ene 2023 – Feb 2024*
+**Descripción**:
+- **Gestión de compras**: Automatiza la creación y seguimiento de presupuesto de proveedores, además registra las compras, actualizando el stock disponible, evitando errores y faltantes.
 - **Integración de ventas**: Centraliza la gestión de ventas, facilitando una visión completa de las operaciones y mejorando la planificación y control financiero.
 - **Gestión de cobros multi-método**: Facilita el cobro a clientes mediante distintos métodos de pago, como efectivo, tarjeta y cheque, asegurando flexibilidad y rapidez en las transacciones.
 - **Módulo de Tesorería**: Permite gestionar eficientemente los flujos de efectivo de la empresa, controlando ingresos y egresos en tiempo real. Facilita la conciliación bancaria automática, el seguimiento de pagos y cobros, y la planificación de la liquidez, mejorando la toma de decisiones financieras y asegurando un control preciso de las finanzas.
@@ -23,7 +40,7 @@ Asunción, Paraguay  *Ene 2024 – Oct 2024*
 
 **Capturas de pantalla**:
 
- ![Screenshot](./assets/project-13.png)
+ ![Screenshot](./assets/rm-project-electro.png)
 
 
 
