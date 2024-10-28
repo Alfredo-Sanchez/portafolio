@@ -30,8 +30,8 @@
         <div>
           <ul class="nav-links">
             <li><a href="#about">Sobre Mí</a></li>
-            <li><a href="#experience">Habilidades</a></li>
             <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#experience">Habilidades</a></li>
             <li><a href="#contact">Cantáctame</a></li>
           </ul>
         </div>
@@ -62,10 +62,10 @@
           </div>
           <ul class="menu-links">
             <li><a href="#about" onclick="toogleMenu()">Sobre Mí</a></li>
+            <li><a href="#projects" onclick="toogleMenu()">Proyectos</a></li>
             <li>
               <a href="#experience" onclick="toogleMenu()">Habilidades</a>
             </li>
-            <li><a href="#projects" onclick="toogleMenu()">Proyectos</a></li>
             <li><a href="#contact" onclick="toogleMenu()">Cantáctame</a></li>
           </ul>
         </div>
@@ -160,6 +160,103 @@
               </p>
             </div>
           </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="icono de flecha"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+
+      <section id="projects">
+        <p class="section__text__p1">Navega mis recientes</p>
+        <h1 class="title">Proyectos</h1>
+        <div class="projects-details-container">
+          <article class="project">
+            <div class="project-left">
+              <div class="project-img-container">
+                <img
+                  src="./assets/project-crayola.png"
+                  alt="Imagen del proyecto 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <div class="project-right">
+              <h3 class="project-title">Crayola y Papel S.A</h3>
+              <div class="project-right-2">
+                <ul class="project-tools">
+                  <li class="project-tools__item">JavaScript</li>
+                  <li class="project-tools__item">PHP</li>
+                  <li class="project-tools__item">Bootstrap</li>
+                  <li class="project-tools__item">PostgreSQL</li>
+                </ul>
+                <p class="project-description">
+                  Sistema de gestión de compras, servicios y ventas optimiza los
+                  procesos clave de la empresa. Automatiza el control de
+                  inventarios. Centraliza ventas y facilita transacciones
+                  mediante múltiples métodos de pago, mejorando la visibilidad
+                  operativa y el control financiero para apoyar una toma de
+                  decisiones ágil y efectiva.
+                </p>
+                <footer>
+                  <a
+                    href="http://github.com/"
+                    class="btn btn-color-2 project-btn"
+                    >Github</a
+                  >
+                  <a
+                    href="http://github.com/"
+                    class="btn btn-color-1 project-btn"
+                    >Ver Demo</a
+                  >
+                </footer>
+              </div>
+            </div>
+          </article>
+          <article class="project">
+            <div class="project-left">
+              <div class="project-img-container">
+                <img
+                  src="./assets/project-electro.png"
+                  alt="Imagen del proyecto 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <div class="project-right">
+              <h3 class="project-title">Electrodomesticos S.A</h3>
+              <div class="project-right-2">
+                <ul class="project-tools">
+                  <li class="project-tools__item">JavaScript</li>
+                  <li class="project-tools__item">PHP</li>
+                  <li class="project-tools__item">Bootstrap</li>
+                  <li class="project-tools__item">PostgreSQL</li>
+                </ul>
+                <p class="project-description">
+                  Sistema de gestión de compras, ventas y tesoreria optimiza los
+                  procesos clave de la empresa. Centraliza ventas y facilita
+                  transacciones mediante múltiples métodos de pago. Gestiona
+                  flujo de caja: asignación, rendición y reposición mejorando la
+                  visibilidad operativa y el control financiero para apoyar una
+                  toma de decisiones ágil y efectiva.
+                </p>
+                <footer>
+                  <a
+                    href="http://github.com/"
+                    class="btn btn-color-2 project-btn"
+                    >Github</a
+                  >
+                  <a
+                    href="http://github.com/"
+                    class="btn btn-color-1 project-btn"
+                    >Ver Demo</a
+                  >
+                </footer>
+              </div>
+            </div>
+          </article>
         </div>
         <img
           src="./assets/arrow.png"
@@ -322,103 +419,6 @@
           src="./assets/arrow.png"
           alt="icono de flecha"
           class="icon arrow"
-          onclick="location.href='./#projects'"
-        />
-      </section>
-
-      <section id="projects">
-        <p class="section__text__p1">Navega mis recientes</p>
-        <h1 class="title">Proyectos</h1>
-        <div class="projects-details-container">
-          <article class="project">
-            <div class="project-left">
-              <div class="project-img-container">
-                <img
-                  src="./assets/project-crayola.png"
-                  alt="Imagen del proyecto 1"
-                  class="project-img"
-                />
-              </div>
-            </div>
-            <div class="project-right">
-              <h3 class="project-title">Crayola y Papel S.A</h3>
-              <div class="project-right-2">
-                <ul class="project-tools">
-                  <li class="project-tools__item">JavaScript</li>
-                  <li class="project-tools__item">PHP</li>
-                  <li class="project-tools__item">Bootstrap</li>
-                  <li class="project-tools__item">PostgreSQL</li>
-                </ul>
-                <p class="project-description">
-                  Sistema de gestión de compras, servicios y ventas optimiza los
-                  procesos clave de la empresa. Automatiza el control de
-                  inventarios. Centraliza ventas y facilita transacciones
-                  mediante múltiples métodos de pago, mejorando la visibilidad
-                  operativa y el control financiero para apoyar una toma de
-                  decisiones ágil y efectiva.
-                </p>
-                <footer>
-                  <a
-                    href="http://github.com/"
-                    class="btn btn-color-2 project-btn"
-                    >Github</a
-                  >
-                  <a
-                    href="http://github.com/"
-                    class="btn btn-color-1 project-btn"
-                    >Ver Demo</a
-                  >
-                </footer>
-              </div>
-            </div>
-          </article>
-          <article class="project">
-            <div class="project-left">
-              <div class="project-img-container">
-                <img
-                  src="./assets/project-electro.png"
-                  alt="Imagen del proyecto 1"
-                  class="project-img"
-                />
-              </div>
-            </div>
-            <div class="project-right">
-              <h3 class="project-title">Electrodomesticos S.A</h3>
-              <div class="project-right-2">
-                <ul class="project-tools">
-                  <li class="project-tools__item">JavaScript</li>
-                  <li class="project-tools__item">PHP</li>
-                  <li class="project-tools__item">Bootstrap</li>
-                  <li class="project-tools__item">PostgreSQL</li>
-                </ul>
-                <p class="project-description">
-                  Sistema de gestión de compras, ventas y tesoreria optimiza los
-                  procesos clave de la empresa. Centraliza ventas y facilita
-                  transacciones mediante múltiples métodos de pago. Gestiona
-                  flujo de caja: asignación, rendición y reposición mejorando la
-                  visibilidad operativa y el control financiero para apoyar una
-                  toma de decisiones ágil y efectiva.
-                </p>
-                <footer>
-                  <a
-                    href="http://github.com/"
-                    class="btn btn-color-2 project-btn"
-                    >Github</a
-                  >
-                  <a
-                    href="http://github.com/"
-                    class="btn btn-color-1 project-btn"
-                    >Ver Demo</a
-                  >
-                </footer>
-              </div>
-            </div>
-          </article>
-        </div>
-        <img
-          src="./assets/arrow.png"
-          alt="icono de flecha"
-          class="icon arrow"
           onclick="location.href='./#contact'"
         />
       </section>
@@ -461,8 +461,8 @@
           <div class="nav-links-container">
             <ul class="nav-links">
               <li><a href="#about">Sobre Mí</a></li>
-              <li><a href="#experience">Habilidades</a></li>
               <li><a href="#projects">Proyectos</a></li>
+              <li><a href="#experience">Habilidades</a></li>
               <li><a href="#contact">Cantactame</a></li>
             </ul>
           </div>
