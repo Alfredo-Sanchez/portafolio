@@ -24,7 +24,7 @@ Asunción, Paraguay  *Ene 2024 – Oct 2024*
 
 **Capturas de pantalla**:
 
- ![Screenshot](./assets/rm-project-crayola.png)
+ ![Screenshot](./assets/rm-project-crayola.webp)
 
  ### ELECTRODOMESTICOS S. A
 **Desarrollador FullStack** 
@@ -40,14 +40,14 @@ Asunción, Paraguay  *Ene 2023 – Feb 2024*
 
 **Capturas de pantalla**:
 
- ![Screenshot](./assets/rm-project-electro.png)
+ ![Screenshot](./assets/rm-project-electro.webp)
 
 
 
 ### [Mi Portafolio Personal](https://alfredo-sanchez.github.io/portafolio/)
 - **Descripción**: Este es mi portafolio donde muestro mis proyectos y habilidades. Utilicé técnicas de diseño responsivo para asegurarme de que se vea bien en todos los dispositivos.
 - **Tecnologías utilizadas**: HTML, CSS, JavaScript.
-- **Capturas de pantalla**: ![Screenshot](./assets/portfolio-pic-1.png)
+- **Capturas de pantalla**: ![Screenshot](./assets/portfolio-pic-1.webp)
 
 ## Contacto
 Si deseas saber más sobre mí o mis proyectos, no dudes en contactarme:
