@@ -9,6 +9,7 @@
 :root {
   /* COLORS */
   --color-text: rgb(85, 85, 85);
+  --color-title: black;
   --color-link: black;
   --color-link-hover: gray;
   --color-link-underline: rgb(181, 181, 181);
@@ -21,6 +22,7 @@
   --btn-primary-bg-color: rgb(53, 53, 53);
   --btn-primary-bg-color-hover: black;
   --btn-primary-color: white;
+  --btn-secundary-bg-color: white;
   --btn-secundary-color: black;
 
   /* FONT SIZES */
@@ -38,8 +40,21 @@
   --transition-speed-fast: 100ms;
 }
 
+.dark-mode {
+  --color-text: rgb(200, 200, 200);
+  --color-title: white;
+  --color-link: rgb(180, 180, 180);
+  --color-link-hover: rgb(220, 220, 220);
+  --color-link-underline: rgb(120, 120, 120);
+  --color-background: rgb(30, 30, 30);
+  --color-border: rgb(80, 80, 80);
+  --color-border-secondary: rgb(100, 100, 100);
+  --color-background-secondary: rgb(45, 45, 45);
+}
+
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--color-background);
 }
 
 html {
@@ -111,7 +126,7 @@ nav {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 /* HAMBUGUER MENU */
@@ -242,6 +257,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  color: var(--color-title);
 }
 
 #socials-container {
@@ -293,7 +309,7 @@ section {
 }
 
 .btn-color-2 {
-  background: var(--color-background);
+  background: var(--btn-secundary-bg-color);
   color: var(--btn-secundary-color);
 }
 
@@ -321,6 +337,10 @@ section {
 .about-details-container {
   justify-content: center;
   flex-direction: column;
+}
+
+.about-subtitle {
+  color: var(--color-title);
 }
 
 .about-containers,
@@ -371,6 +391,10 @@ section {
   margin-bottom: 2rem;
 }
 
+.skill-title {
+  color: var(--color-title);
+}
+
 .experience-details-container {
   display: flex;
   justify-content: center;
@@ -414,6 +438,10 @@ article .icon {
   margin: 2rem 0 8rem;
 }
 
+.project-title {
+  color: var(--color-title);
+}
+
 .project-left {
   height: 100%;
 }
@@ -443,6 +471,7 @@ article .icon {
 .project-tools__item {
   list-style: none;
   padding-right: 1rem;
+  color: var(--color-title);
 }
 
 .project-description {
