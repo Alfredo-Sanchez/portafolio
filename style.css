@@ -112,9 +112,9 @@ nav {
   text-decoration-color: var(--color-link-underline);
 }
 
-.logo svg {
+.logo img {
   width: 3rem;
-  height: 3rem;
+  height: 2.4rem;
 }
 
 .logo-module--icon--13WJl {

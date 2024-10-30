@@ -6,13 +6,20 @@ function toogleMenu() {
   icon.classList.toggle("open");
 }
 
-const toggleButton = document.querySelector(".toggle-dark-mode");
-toggleButton.addEventListener("click", toggleDarkMode);
+const toggleButtons = document.querySelectorAll(".toggle-dark-mode");
 
-const toggleButton2 = document.querySelector(".toggle-dark-mode-2");
-toggleButton2.addEventListener("click", toggleDarkMode);
+toggleButtons.forEach(button => {
+  button.addEventListener('click', toggleDarkMode)
+})
 
 function toggleDarkMode(event) {
-  event.preventDefault(); // Previene comportamientos no deseados en móviles
+  event.preventDefault();
   document.body.classList.toggle("dark-mode");
+
+  const icon = event.target;
+  const isMoon = icon.getAttribute('src') === './assets/moon-icon.svg'
+
+  icon.setAttribute("src", isMoon ? './assets/sun-icon.svg' : './assets/moon-icon.svg');
 }
+
+
