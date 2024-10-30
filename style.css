@@ -30,8 +30,8 @@
   --font-size-xlarge: 3rem;
 
   /* SPACING */
-  --gap-large: 2rem;
-  --gap-small: 0.5rem;
+  --gap-large: 3rem;
+  --gap-small: 1rem;
   --gap-icon: 1rem;
 
   /* OTHER */
@@ -333,7 +333,7 @@ section {
 }
 
 .about-containers {
-  gap: 2rem;
+  gap: var(--gap-large);
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -372,7 +372,7 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
+  gap: var(--gap-large);
   height: 80%;
 }
 
@@ -436,7 +436,7 @@ article .icon {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 2rem;
+  gap: var(--gap-large);
   width: 1080px;
   /* height: 300px; */
   margin: 2rem 0 8rem;
